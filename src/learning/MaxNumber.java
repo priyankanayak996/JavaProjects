@@ -3,7 +3,7 @@ package learning;
 import java.util.Scanner;
 
 public class MaxNumber {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter numbers : ");
         int num = scanner.nextInt();

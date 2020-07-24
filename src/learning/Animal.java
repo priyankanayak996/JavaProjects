@@ -23,7 +23,7 @@ public class Animal {
         age=a;
         color=c;
     }
-    public static void main(String args[]){
+    public static void main(String[] args){
         Animal obj=new Animal();
         Animal obj1=new Animal("black","buzo");
         System.out.println("Color of the animal is "+obj1.color+" and name of the animal is "+obj1.name);

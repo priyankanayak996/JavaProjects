@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class CheckInputChar {
     public static void main(String[] args){
         Scanner scan =new Scanner(System.in);
-        char num;
+
         System.out.println("Enter character: ");
         char ch=scan.next().charAt(0);
         if(ch>=65 && ch<=90){

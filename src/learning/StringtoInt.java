@@ -8,13 +8,12 @@ public class StringtoInt {
 
         Scanner sr = new Scanner(System.in);
         System.out.println("Enter a string");
-        String s = sr.nextLine();
-        int i=Integer.parseInt(s);
-        try {
-             i = Integer.parseInt(s);
-        } catch (Exception e) {
-            System.out.println("Please enter a number not string");
-
+        String string = sr.nextLine();
+        try{
+            int result=Integer.parseInt(string);
+            System.out.println(result);
+        }catch(NumberFormatException e){
+            System.err.println("Unable to convert input string to int");
 
         }
     }}

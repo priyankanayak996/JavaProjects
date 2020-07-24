@@ -7,7 +7,7 @@ import java.util.ArrayList;
 
 public class AvgEvenOdd {
     public static void main(String[] args){
-        int a[]={8,5,9,7,2,3,4};
+        int[] a={8,5,9,7,2,3,4};
         ArrayList<Integer> al1=new ArrayList<>();
         ArrayList<Integer> al2=new ArrayList<>();
 

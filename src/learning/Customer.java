@@ -40,30 +40,30 @@ package learning;
     private int custId=23;
     protected String custName="John";
     static int custCount=20;
-    final int MAXPHONES;
+    final int maxphones;
 
     public Customer(){
-        MAXPHONES=2;
+        maxphones=2;
             custCount++;
             //Access custCount using class name
             System.out.println("Number of customer: "+Customer.custCount);
 
         }
 
-    public void Print(){
+    public void print(){
         System.out.println("Customer's Id is "+custId);
         System.out.println("Customer's Name is "+custName);
     }
 
   public class Address{
        private String custAddress="US";
-        public void PrintAddress(){
+        public void printAddress(){
             System.out.println("Customer's address is "+custAddress);
         }
     }
    public class Contact{
         protected String custContact="9876564324";
-            public void PrintContact(){
+            public void printContact(){
                 System.out.println("Contact no of Customer is "+custContact);
             }
         }
@@ -75,9 +75,9 @@ package learning;
         Customer.Address in=obj.new Address();
         Customer.Contact inner=obj.new Contact();
 
-        obj.Print();
-        in.PrintAddress();
-        inner.PrintContact();
+        obj.print();
+        in.printAddress();
+        inner.printContact();
 
 
 
@@ -88,7 +88,7 @@ package learning;
         System.out.println("Number of customers "+customer2.custCount);
 
         //Access MAXPHONES using object name
-        System.out.println("maximum allowable phones for a customer record: "+obj.MAXPHONES);
+        System.out.println("maximum allowable phones for a customer record: "+obj.maxphones);
 
     }
 }

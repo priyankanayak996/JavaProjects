@@ -56,7 +56,7 @@ package learning;
     }
 
   public class Address{
-       private String custAddress="US";
+       private String custAddress="USA";
         public void printAddress(){
             System.out.println("Customer's address is "+custAddress);
         }

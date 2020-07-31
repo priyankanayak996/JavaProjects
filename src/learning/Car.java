@@ -7,7 +7,7 @@ Long launchYear
 Model carModel (Model (String modelName, Date launchDate))
 
 a. Print all the details in printCarDetails methods.*/
-import learning.Vehicle;
+package learning;
 import java.util.Date;
 
 
